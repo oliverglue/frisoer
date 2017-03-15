@@ -4,17 +4,18 @@
   }
 }
 
-/* Custom page header */
-.header {
-  padding-bottom: 5px;
-  border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 10;
-  margin-bottom: 0;
-  line-height: 0px;
+.navbar-default {
+  background-color: #e8e3a3;
+  border-color: #e8e3a3;
 }
 
-.top-buffer { margin-top: 50px; }
+.top-buffer { margin-top: 50px; 
+ }
+.top-big { margin-top: 200px; }
 
+.navbar-default .navbar-nav > li > a {
+  color: #00d097;
+}
+
+
+.smallcaps {text-transform: uppercase;}
